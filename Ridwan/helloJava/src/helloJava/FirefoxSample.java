@@ -1,16 +1,12 @@
 package helloJava;
 
-import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class FirefoxSample {
 	public void execute() {
@@ -31,5 +27,4 @@ public class FirefoxSample {
 		
 		//driver.close();
 	}
-
 }
