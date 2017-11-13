@@ -14,6 +14,7 @@ public class ChromeSample {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ridwan julvianto\\AppData\\Local\\Programs\\SeleniumDrivers\\chromedriver-v2.33_win32\\chromedriver.exe");
 		
 		ChromeOptions options = new ChromeOptions();
+		
 		options.setBinary("C:\\Users\\ridwan julvianto\\AppData\\Local\\Programs\\Browsers\\Chrome62.0.3202.62\\chrome.exe");
 		
 		WebDriver driver = new ChromeDriver();
